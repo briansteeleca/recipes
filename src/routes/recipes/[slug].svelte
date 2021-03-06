@@ -25,7 +25,7 @@
 <Container>
 <h1>{post.title}</h1>
 
-<div class='content'>
+<div class='content prose'>
 	{@html post.html}
 </div>
 </Container>

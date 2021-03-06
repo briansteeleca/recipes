@@ -19,6 +19,24 @@
 
   @tailwind utilities;
 
+  @layer utilities {
+    ul > li:before,
+    ol > li:before {
+      content: '・';
+      float: left;
+      margin: 0 0 0 -0.9em;
+      width: 0.9em;
+    }
+
+    @media (min-width: 992px) {
+      ul > li:before,
+      ol > li:before {
+        margin: 0 0 0 -1.5em;
+        width: 1.5em;
+      }
+    }
+  }
+
   /* @layer base {
     h1 {
       @apply text-8xl;
