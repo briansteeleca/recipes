@@ -19,7 +19,7 @@ And here's a list:
 
 ~~I've updated where the numbers go, but haven't sent it yet.~~
 
-Now I've sent it.[]: # (This is a comment)
+Now I've sent it. Done!
 
 <!-- and this is a comment -->
 
@@ -30,8 +30,8 @@ Now I've sent it.[]: # (This is a comment)
  />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU0NDc5LC03ODMyNjMwMDksLTU1NT
-AxODE3MywtMTM4NDU1MTg0OSwtNTU0ODk1MTUyLC0xOTgzNDk4
-Mzc5LC0xNDE4MTk0ODAsMTcxNDE5MTI5OSwtMjEyNzg1MDY0NF
-19
+eyJoaXN0b3J5IjpbMTg2MDExOTg5OCwtMjAzNTQ0NzksLTc4Mz
+I2MzAwOSwtNTU1MDE4MTczLC0xMzg0NTUxODQ5LC01NTQ4OTUx
+NTIsLTE5ODM0OTgzNzksLTE0MTgxOTQ4MCwxNzE0MTkxMjk5LC
+0yMTI3ODUwNjQ0XX0=
 -->
