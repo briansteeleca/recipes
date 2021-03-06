@@ -9,15 +9,17 @@ For web developers, the stakes are generally lower than those for combat enginee
 
 This is an update for the posts page. I would rather not build every time that I make a change. So I'm going to add some new text, and hope that a manual sync will be required to build.
 
-It seems to work well. I'm going to **bold some text**, and then make some *italicized text just for fun*. But please don't build until I tell you to. Thank-you.
+It seems to work well. I'm going to **bold some text**, and then make some _italicized text just for fun_. But please don't build until I tell you to. Thank-you.
 
 And here's a list:
 
- 1. Do this first
- 2. And then you can do this
- 3. Be sure to do this step last!
+1.  Do this first
+2.  And then you can do this
+3.  Be sure to do this step last!
 
-I've updated where the numbers go, but haven't sent it yet.
+~~I've updated where the numbers go, but haven't sent it yet.~~
+
+Now I've sent it.
 
 <!-- and this is a comment -->
 
@@ -26,6 +28,7 @@ I've updated where the numbers go, but haven't sent it yet.
 <img src="/images/431-1024x1024.jpg"
      alt=""
  />
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTEzODQ1NTE4NDksLTU1NDg5NTE1MiwtMT
 k4MzQ5ODM3OSwtMTQxODE5NDgwLDE3MTQxOTEyOTksLTIxMjc4

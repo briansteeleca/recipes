@@ -31,7 +31,7 @@
     @media (min-width: 992px) {
       ul > li:before,
       ol > li:before {
-        margin: 0 0 0 -1.5em;
+        margin: 0;
         width: 1.5em;
       }
     }
