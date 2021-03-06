@@ -7,3 +7,6 @@ A Sapper template that uses Markdown to store blog posts.
 
 Instead of persisting blog posts in a JSON file at `src/routes/blog/_posts.js`,
 this template here uses Markdown files in `src/posts`.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4MjEwMzExOF19
+-->
