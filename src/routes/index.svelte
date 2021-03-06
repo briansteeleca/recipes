@@ -1,34 +1,53 @@
 <script context="module">
-	export function preload({ params, query }) {
-		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-			return { posts };
-		});
-	}
+  export function preload({ params, query }) {
+    return this.fetch(`recipes.json`)
+      .then((r) => r.json())
+      .then((posts) => {
+        return { posts };
+      });
+  }
 </script>
 
 <script>
-	export let posts;
+  import Container from '../components/Container.svelte';
+  import Image from 'svelte-image';
+  export let posts;
 </script>
 
-<style>
-	ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
-	}
-</style>
-
 <svelte:head>
-	<title>Blog</title>
+  <title>Blog</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
-
-<ul>
-	{#each posts as post}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
+<Container>
+  <section class="my-32">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-24 xl:gap-8">
+      {#each posts as post}
+        <section class="">
+          <!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-		<li><a rel='prefetch' href='blog/{post.slug}'>{post.title}</a></li>
-	{/each}
-</ul>
+          <div class="card w-full overflow-hidden border border-red-500">
+            <Image
+              wrapperClass="border border-green-500 m-0"
+              src="images/431-1024x1024.jpg"
+              alt="recipe"
+            />
+
+            <div class="m-0 p-8">
+              <a class="block" rel="prefetch" href="recipes/{post.slug}"
+                >{post.title}</a
+              >
+            </div>
+          </div>
+        </section>
+      {/each}
+    </div>
+  </section>
+</Container>
+
+<style>
+  .card {
+    min-height: 100px;
+  }
+</style>
