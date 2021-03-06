@@ -17,7 +17,7 @@ And here's a list:
  2. And then you can do this
  3. Be sure to do this step last!
 
-
+I've updated where the numbers go, but haven't sent it yet.
 
 <!-- and this is a comment -->
 
@@ -27,6 +27,7 @@ And here's a list:
      alt=""
  />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDg5NTE1MiwtMTk4MzQ5ODM3OSwtMT
-QxODE5NDgwLDE3MTQxOTEyOTksLTIxMjc4NTA2NDRdfQ==
+eyJoaXN0b3J5IjpbLTEzODQ1NTE4NDksLTU1NDg5NTE1MiwtMT
+k4MzQ5ODM3OSwtMTQxODE5NDgwLDE3MTQxOTEyOTksLTIxMjc4
+NTA2NDRdfQ==
 -->
