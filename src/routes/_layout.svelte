@@ -20,8 +20,8 @@
   @tailwind utilities;
 
   @layer utilities {
-    ul > li:before,
-    ol > li:before {
+    .prose ul > li:before,
+    .prose ol > li:before {
       content: '・';
       float: left;
       margin: 0 0 0 -0.9em;
@@ -29,8 +29,8 @@
     }
 
     @media (min-width: 992px) {
-      ul > li:before,
-      ol > li:before {
+      .prose ul > li:before,
+      .prose ol > li:before {
         margin: 0;
         width: 1.5em;
       }
