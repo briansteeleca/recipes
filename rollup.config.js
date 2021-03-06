@@ -6,12 +6,33 @@ import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
+import sveltePreprocess from 'svelte-preprocess';
+import image from 'svelte-image';
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
 
 const onwarn = (warning, onwarn) => (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) || onwarn(warning);
+
+// https://stackoverflow.com/questions/62446218/change-the-order-of-preprocessors-in-svelte-sapper
+// https://www.npmjs.com/package/svelte-sequential-preprocessor
+const preprocess = [
+	sveltePreprocess({
+		sourceMap: dev,
+		postcss: {
+			plugins: [
+				require("tailwindcss"),
+				require("autoprefixer"),
+				require("postcss-nesting")
+			],
+		},
+	}),
+	image({
+		inlineBelow: 10000,
+		placeholder: 'blur', //trace
+	})
+];
 
 export default {
 	client: {
@@ -23,6 +44,7 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
+				preprocess: preprocess,
 				dev,
 				hydratable: true,
 				emitCss: true
