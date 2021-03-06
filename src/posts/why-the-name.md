@@ -14,6 +14,8 @@ It seems to work well. I'm going to **bold some text**, and then make some itali
 And here's a list:
 
  1. Do this first
+ 2. And then you can do this
+ 3. Be sure to do this step last!
 
 <!-- and this is a comment -->
 
@@ -23,6 +25,6 @@ And here's a list:
      alt=""
  />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk0ODk2MywtMTQxODE5NDgwLDE3MT
-QxOTEyOTksLTIxMjc4NTA2NDRdfQ==
+eyJoaXN0b3J5IjpbLTE5ODM0OTgzNzksLTE0MTgxOTQ4MCwxNz
+E0MTkxMjk5LC0yMTI3ODUwNjQ0XX0=
 -->
