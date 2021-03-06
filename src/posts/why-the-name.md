@@ -9,7 +9,7 @@ For web developers, the stakes are generally lower than those for combat enginee
 
 This is an update for the posts page. I would rather not build every time that I make a change. So I'm going to add some new text, and hope that a manual sync will be required to build.
 
-It seems to work well. I'm going to **bold some text**, and then make some _italicized text just for fun_. But please don't build until I tell you to. Thank-you.
+It seems to work well. I'm going to **bold some text**, and then make some _italicized text just for fun_. But please don't build until I tell you to. Thank- you.
 
 And here's a list:
 
@@ -19,7 +19,7 @@ And here's a list:
 
 ~~I've updated where the numbers go, but haven't sent it yet.~~
 
-Now I've sent it.
+Now I've sent it.[]: # (This is a comment)
 
 <!-- and this is a comment -->
 
@@ -30,7 +30,7 @@ Now I've sent it.
  />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTAxODE3MywtMTM4NDU1MTg0OSwtNT
-U0ODk1MTUyLC0xOTgzNDk4Mzc5LC0xNDE4MTk0ODAsMTcxNDE5
-MTI5OSwtMjEyNzg1MDY0NF19
+eyJoaXN0b3J5IjpbLTc4MzI2MzAwOSwtNTU1MDE4MTczLC0xMz
+g0NTUxODQ5LC01NTQ4OTUxNTIsLTE5ODM0OTgzNzksLTE0MTgx
+OTQ4MCwxNzE0MTkxMjk5LC0yMTI3ODUwNjQ0XX0=
 -->
