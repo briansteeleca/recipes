@@ -9,13 +9,15 @@ For web developers, the stakes are generally lower than those for combat enginee
 
 This is an update for the posts page. I would rather not build every time that I make a change. So I'm going to add some new text, and hope that a manual sync will be required to build.
 
-It seems to work well. I'm going to **bold some text**, and then make some italicized text just for fun.
+It seems to work well. I'm going to **bold some text**, and then make some *italicized text just for fun*. But please don't build until I tell you to. Thank-you.
 
 And here's a list:
 
  1. Do this first
  2. And then you can do this
  3. Be sure to do this step last!
+
+
 
 <!-- and this is a comment -->
 
@@ -25,6 +27,6 @@ And here's a list:
      alt=""
  />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODM0OTgzNzksLTE0MTgxOTQ4MCwxNz
-E0MTkxMjk5LC0yMTI3ODUwNjQ0XX0=
+eyJoaXN0b3J5IjpbLTU1NDg5NTE1MiwtMTk4MzQ5ODM3OSwtMT
+QxODE5NDgwLDE3MTQxOTEyOTksLTIxMjc4NTA2NDRdfQ==
 -->
