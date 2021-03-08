@@ -1,6 +1,6 @@
 ---
-title: 'How to use Sapper'
-slug: 'how-to-use-sapper'
+title: 'Bbq Veggie Pizza'
+slug: 'bbq-veggie-pizza'
 hero-img-src: '397-1024x1024.jpg'
 ---
 
