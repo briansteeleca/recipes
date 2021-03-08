@@ -8,7 +8,8 @@ hero-img-src: '397-1024x1024.jpg'
 **Serves:**
 4 (4 small pizzas)
 **Prep time:**
-20 m
+20 min
+**Cook time:**
 
 <!-- Recipe Meta -->
 
@@ -24,5 +25,5 @@ hero-img-src: '397-1024x1024.jpg'
 
 <!-- Related Recipes -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjk2ODIxMV19
+eyJoaXN0b3J5IjpbLTkwMzk5MDMzXX0=
 -->
